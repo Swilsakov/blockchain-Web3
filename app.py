@@ -8,5 +8,5 @@ print(web3.isConnected())
 
 print(web3.eth.blockNumber)
 
-balance = web3.eth.getBalance("0xB3F20d336239A295D3FbEE056Fc304b959E2267e")
+balance = web3.eth.getBalance("0xB3F20d336239A295D3FbEE056Fc304b959E2267e") #Узнать баланс с кошелька Metamask
 print(web3.fromWei(balance, 'ether'))
